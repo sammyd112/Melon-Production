@@ -29,7 +29,7 @@ def show_help():
     """)
 
 
-def assess_and_pack_orders():
+def assess_and_pack_orders(logfilename):
     """Assesses and packs order objects.
 
     Distinguishes between melons/squashes."""
@@ -110,4 +110,4 @@ def assess_and_pack_orders():
 
         print("------\n")
 
-assess_and_pack_orders()
+assess_and_pack_orders('standing_orders2.log')
